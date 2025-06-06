@@ -67,10 +67,17 @@ main {
   justify-content: center;
   align-items: center;
   gap: 6px;
-  margin-top: 12px;
+  margin-bottom: 12px;
   text-align: center;
   width: 100%;
   font-size: 14px;
+}
+
+.video-wrapper {
+  padding: 10px;
+  border: 2px solid #ff0000;
+  box-shadow: 0 0 15px #ff0000;
+  border-radius: 8px;
 }
 
 .sound-icon {
