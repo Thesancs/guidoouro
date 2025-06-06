@@ -61,3 +61,19 @@ main {
 .hidden {
   display: none;
 }
+
+.sound-alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+}
+
+.sound-icon {
+  width: 20px;
+  height: 20px;
+}
