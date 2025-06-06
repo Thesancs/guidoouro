@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000;
-  color: #fff;  font-family: Arial, sans-serif;
+  color: #fff;
+  font-family: Arial, sans-serif;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -40,21 +41,20 @@ main {
 }
 
 .cta {
-  display: inline-block;
-  margin-top: 24px;
-  padding: 16px 24px;
-  font-size: 1.25rem;
-  background-color: red;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  text-decoration: none;
+  background-color: #00C851;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 200, 80, 0.8);
+  transition: background 0.3s;
 }
 
 .cta:hover {
-  background-color: darkred;
+  background-color: #00b44a;
 }
 
 .hidden {
@@ -66,44 +66,24 @@ main {
   justify-content: center;
   align-items: center;
   gap: 6px;
-  HEAD
-  margin-bottom: 12px;
-
-  margin-top: 12px;
-  master
+  margin: 12px auto;
   text-align: center;
   width: 100%;
   font-size: 14px;
 }
 
-
 .video-wrapper {
   padding: 10px;
   border: 2px solid #ff0000;
   box-shadow: 0 0 15px #ff0000;
   border-radius: 8px;
-}
-
-
-.sound-icon {
-  width: 20px;
-  height: 20px;
-margin-bottom: 12px;
-margin-top: 12px;
-text-align: center;
-width: 100%;
-font-size: 14px;
-}
-
-.video-wrapper {
-  padding: 10px;
-  border: 2px solid #ff0000;
-  box-shadow: 0 0 15px #ff0000;
-  border-radius: 8px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .sound-icon {
   width: 20px;
   height: 20px;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
-
